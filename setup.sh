@@ -14,7 +14,7 @@ set -o nounset    # fail on unset variables
 TICKS=$(echo $(date +%s | cut -b1-13))
 
 # Name of your team (optional)
-HEROKU_TEAM_NAME="appcloud-dev" 
+HEROKU_TEAM_NAME="yearup-dev" 
 
 # Name of the Heroku apps you'll use
 HEROKU_DEV_APP_NAME="dev$TICKS"
@@ -27,7 +27,7 @@ HEROKU_PIPELINE_NAME="pipeline$TICKS"
 # Usernames or aliases of the orgs you're using
 DEV_HUB_USERNAME="HubOrg"
 DEV_USERNAME="DevOrg"
-STAGING_USERNAME="TestOrg"
+STAGING_USERNAME="StagingOrg"
 PROD_USERNAME="ProdOrg"
 
 # Repository with your code
